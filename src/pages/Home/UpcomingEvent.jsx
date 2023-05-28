@@ -4,10 +4,10 @@ import mask from "../../assets/Mask group.png"
 import mask1 from "../../assets/Mask group-1.png"
 const UpcomingEvent = () => {
     return (
-        <div className="px-6 lg:px-44">
+        <div className="px-2 lg:px-44">
             <h1 className="text-3xl lg:text-4xl  font-semibold text-white text-center pt-20 pb-6 lg:pb-10">Upcoming AMAs</h1>
             <div className="flex flex-col lg:flex-row text-white lg:justify-between border-t-[14px] lg:border-t-0 lg:border-l-[14px] border-secondary bg-[#221E30] relative">
-                <div className="p-8 grid grid-cols-2 lg:grid-cols-1 gap-2">
+                <div className="p-2 lg:p-8 grid grid-cols-2 lg:grid-cols-1 gap-2">
                     <div>
                         <p>AMA with</p>
                         <h1 className="text-2xl pt-2">WARQUBE</h1>
