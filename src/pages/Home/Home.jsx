@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import Featured from "./Featured";
 import MassiveCollaboration from "./MassiveCollaboration";
 import PitchDeck from "./PitchDeck";
 import UpcomingEvent from "./UpcomingEvent";
@@ -10,6 +11,7 @@ const Home = () => {
             <MassiveCollaboration />
             <UpcomingEvent />
             <PitchDeck />
+            <Featured />
         </div>
     );
 };

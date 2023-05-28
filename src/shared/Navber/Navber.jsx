@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/meetamoon.png"
+import telegram from '../../assets/bxl_telegram.svg'
+import twitter from '../../assets/ant-design_twitter-outlined.svg'
+import discord from '../../assets/akar-icons_discord-fill.svg'
+import youtube from '../../assets/ant-design_youtube-filled.svg'
 
 const Navber = () => {
     const menuItem = <>
@@ -29,6 +33,12 @@ const Navber = () => {
             <div className="navbar hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-sm">
                     {menuItem}
+                    <div className='flex bg-[#1C193F] gap-5 ml-3 border border-[#454343]  p-3 rounded-lg'>
+                        <Link to=''><img className="w-4" src={telegram} alt="" /></Link>
+                        <Link to=''><img className="w-4" src={twitter} alt="" /></Link>
+                        <Link to=''><img className="w-4" src={discord} alt="" /></Link>
+                        <Link to=''><img className="w-4" src={youtube} alt="" /></Link>
+                    </div>
                 </ul>
             </div>
         </div>
