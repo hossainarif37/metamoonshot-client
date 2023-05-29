@@ -7,11 +7,11 @@ import youtube from '../../assets/ant-design_youtube-filled.svg'
 
 const Navber = () => {
     const menuItem = <>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/about'>About Us</Link></li>
-        <li><Link to='/review'>AMA Review</Link></li>
-        <li><Link to='/partners'>Partners</Link></li>
-        <li><Link to='/success-stories'>Success Stories</Link></li>
+        <li><Link className="focus:bg-secondary" to='/'>Home</Link></li>
+        <li><Link className="focus:bg-secondary" to='/about'>About Us</Link></li>
+        <li><Link className="focus:bg-secondary" to='/review'>AMA Review</Link></li>
+        <li><Link className="focus:bg-secondary" to='/partners'>Partners</Link></li>
+        <li><Link className="focus:bg-secondary" to='/success-stories'>Success Stories</Link></li>
     </>
     return (
         // <div className="navbar text-[#ddd] py-7 lg:px-40 sticky top-0 z-50 bg-[#090519]">
@@ -31,7 +31,7 @@ const Navber = () => {
 
             {/* Desktop version */}
             <div className="navbar hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-sm">
+                <ul className="menu menu-horizontal px-1 text-sm gap-x-1">
                     {menuItem}
                     <div className='flex bg-[#1C193F] gap-5 ml-3 border border-[#454343]  p-3 rounded-lg'>
                         <Link to=''><img className="w-4" src={telegram} alt="" /></Link>

@@ -38,7 +38,7 @@ const UpcomingEvent = () => {
                         <p>Guest: Nick Harris</p>
                     </div>
                 </div>
-                <div className="text-[#ddd] bg-secondary p-5 lg:p-8 flex flex-row justify-between lg:flex-col  gap-4">
+                <div className="text-[#ddd] bg-secondary p-5 lg:p-8 flex flex-row justify-between lg:flex-col text-center gap-4">
                     <div>
                         <h1 className="text-3xl font-semibold ">00</h1>
                         <span>Days</span>
